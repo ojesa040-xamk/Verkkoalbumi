@@ -1,7 +1,7 @@
 <h1>Online Album</h1>
 
 <h2>Description</h2>
-This is an final assignment of markup languages course. Assingment was to make an website using html and css and different transitions. I made an online album with my own pictures. I photograph as a hobby and i love to photograph especially flowers and landscapes. I have used different transitions which don't show in the pictures. The structure of the different albums is the same, but the transitions and pictures are different.
+This is an final assignment of markup languages course. Assignment was to make an website using html and css and different transitions. I made an online album with my own pictures. I photograph as a hobby and i love to photograph especially flowers and landscapes. I have used different transitions which don't show in the pictures. The structure of the different albums is the same, but the transitions and pictures are different.
 <br />
 
 <h2>Languages and Utilities Used</h2>
