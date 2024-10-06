@@ -1,0 +1,95 @@
+body, html {
+    height: 100%;
+}
+
+.bg {
+    background-image:url("kuvat/kukka22.JPG");
+    height: 100%;
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#wrapper {
+    background-color: rgba(255, 255, 255, 0.4);
+    max-width: 965px;
+    margin: auto;
+    border-radius:25px;
+}
+
+#header {
+    margin: auto;
+    padding: 3px;
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    font-size: 15px;
+}
+
+.slide {
+    animation-duration: 5s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-bottom: 100%;
+      height: 100%;
+    }
+  
+    to {
+      margin-bottom: 0%;
+      height: 0%;
+    }
+  }
+
+#valikko{
+    margin-top: 10px;
+    margin-left: 300px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 25px;
+}
+
+#valikko a:link,
+#valikko a:visited {
+    padding: 10px;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+    transition: transform 1s ease;
+    display: inline-block;
+}
+
+#valikko a:hover, #valikko a:active {
+    color:rgb(95, 15, 78);
+    transform: matrix(1, -0.5, 0.5, 1.5, 0, 0);
+}
+
+iframe{
+    margin-left: 100px;
+    width: 800px;
+    height: 530px;
+    box-shadow: 10px 10px 10px #302f2f;
+}
+
+.left{
+    margin-left: 98px;
+}
+
+#albumi{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius:25px;
+    padding:5px;
+    max-width: 965px;
+    margin:auto;
+}
+
+#footer{
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    max-width: 965px;
+    margin:auto;
+    font-family: 'Shadows Into Light', cursive;
+    font-size:large;
+    border-radius:25px;
+}
